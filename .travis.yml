@@ -15,3 +15,20 @@ deploy:
   app: "mysite"
   env: "django-env"
   bucket_name: "elasticbeanstalk-us-east-1-385596171161"
+
+python:
+  - "3.8"
+
+install:
+  - pip install -r requirements.txt
+  
+deploy:
+  provider: elasticbeanstalk
+  access_key_id:
+    secure: "AKIAVTR2SUOMWXNNKQES"
+  secret_access_key:
+    secure: "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"
+  region: "us-east-1"
+  app: "mysite"
+  env: "django-env"
+  bucket_name: "elasticbeanstalk-us-east-1-385596171161"
