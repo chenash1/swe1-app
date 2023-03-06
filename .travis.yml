@@ -14,4 +14,8 @@ deploy:
   region: "us-east-1"
   app: "mysite"
   env: "django-env"
+<<<<<<< HEAD
   bucket_name: "elasticbeanstalk-us-east-1-385596171161"
+=======
+  bucket_name: "elasticbeanstalk-us-east-1-385596171161"
+>>>>>>> 9ac9922 (black)
